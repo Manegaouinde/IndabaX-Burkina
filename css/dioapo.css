@@ -1,0 +1,44 @@
+.diaporama1{
+	margin: 0 auto;
+	width 100%;
+	height: auto;
+	background-image: url("images/sg.jpg");
+
+	webkit-animation-name: diapo1;
+	webkit-animation-duration: 9s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: diapo1;
+	moz-animation-duration: 9s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name: diapo1;
+	animation-duration: 9s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+
+
+}
+
+@-webkit-keyframes diapo1{
+	0%{background-image: url("images/sg.jpg");}
+	33%{background-image: url("images/essais.jpg");}
+	66%{background-image: url("images/musee.jpg");}
+	 }
+
+	 @-moz-keyframes diapo1{
+	0%{background-image: url("images/sg.jpg");}
+	33%{background-image: url("images/essais.jpg");}
+	66%{background-image: url("images/musee.jpg");}
+	 }
+	 @keyframes diapo1{
+	0%{background-image: url("images/sg.jpg");}
+	33%{background-image: url("images/essais.jpg");}
+	66%{background-image: url("images/musee.jpg");}
+	 }
+}
